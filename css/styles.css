@@ -1,0 +1,244 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display|Open+Sans:700,400);
+
+body {
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	margin: auto 2%;
+}
+
+body p {
+	font-family: "Playfair", serif;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+.goaway {
+	text-indent: -999999px;
+}
+
+img {
+	width: 100%;
+}
+
+h2 {
+	color: #06305B;
+}
+
+h3 {
+	color: #06305B;
+}
+
+.bluespace {
+	background-color: #06305B;
+	padding: 10px;
+}
+
+
+/***********************HEADER***************************/
+
+.logo {
+	width: 300px;
+	height: 123px;
+	text-indent: -99999px;
+	background: url(../images/logogogo_thumb.png) no-repeat 0, 0;
+	/*background-image: linear-gradient(transparent, transparent), url(../images/logo.svg);*/
+	background-repeat: no-repeat;
+	margin-left: 10%;
+	clear: both;
+}
+
+.social {
+	float: right;
+	padding-right: 5%;
+	padding-bottom: 1%;
+}
+
+
+.icon {
+	max-width: 30px;
+	height: 30px;
+}
+
+.mainnav ul {
+	list-style: none;
+	padding: 0;
+}
+
+.mainnav li {
+	display: inline;
+}
+
+.mainnav a {
+	padding: 1%;
+}
+
+.mainnav a:hover {
+	color: #fff;
+	background-color: #06305B;
+}
+
+.button {
+	color: #fff;
+	background: #1c75bc; /* Old browsers */
+    background: -moz-linear-gradient(top,  #1c75bc 0%, #06305b 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1c75bc), color-stop(100%,#06305b)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #1c75bc 0%,#06305b 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #1c75bc 0%,#06305b 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #1c75bc 0%,#06305b 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #1c75bc 0%,#06305b 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c75bc', endColorstr='#06305b',GradientType=0 ); /* IE6-9 */
+	padding: 5px;
+	margin-left: 38%;
+	border: 1px solid #06305B;
+	border-radius: 3px;
+}
+
+/********************MAIN*********************/
+
+.headerwords {
+	text-align: center;
+
+}
+
+.programwords {
+	text-align: center;
+}
+
+.readme {
+	color: #AC1112;
+}
+
+.programlist {
+	text-align: center;
+}
+
+/********************FOOTER*********************/
+
+footer {
+	background-color: #1C75BC;
+	padding: 10px;
+}
+
+.footbutton {
+
+}
+
+.contact {
+	color: #fff;
+	width: 200px;
+	margin-left: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************620px*********************/
+@media screen and (min-width: 620px) {
+
+	body {
+		background-color: #999
+	}
+
+
+	.headbutton {
+		float: right;
+	}
+
+	.mainnav {
+		float: left;
+	}
+
+	.imageheader {
+		position: relative;
+	}
+
+
+	.headerwords {
+		clear: both;
+		width: 400px;
+		position: absolute;
+		bottom: 20px;
+		text-shadow: 2px 2px rgba(25, 25, 25, 0.6);
+
+	}
+
+	.headerwords p {
+		color: #fff;
+	}
+
+	.programwords {
+		width: 500px;
+		width: 400px;
+		position: absolute;
+		text-shadow: 2px 2px rgba(25, 25, 25, 0.6);
+	}
+
+	.programwords p {
+		color: #fff;
+	}
+
+	.button {
+		margin-left: 0px;
+		margin-top: 55px;
+	}
+
+	footer {
+		padding-bottom: 100px;
+		position: relative;
+	}
+
+	.footbutton {
+		float: left;
+		margin: 0;
+	}
+
+	.contact {
+		float: right;
+		position: absolute;
+		right: 72px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
