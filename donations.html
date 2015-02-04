@@ -10,13 +10,19 @@
 
 			<header>
 
-				<h1 class="goaway">Center for Fathers and Families</h1>
+				<div class="social">
 
 					<a href="#">EMAIL CLUB</a>
 
-					<a href="#"><img src="images/fblogo.svg"></a>
+					<a href="#"><img src="images/fblogo.svg"class="icon"></a>
 
-					<a href="#"><img src="images/twitterlogo.svg"></a>
+					<a href="#"><img src="images/twitterlogo.svg" class="icon"></a>
+
+				</div>
+
+				<h1 class="logo">Center for Fathers and Families</h1>
+
+					
 
 				<nav class="mainnav">
 					
@@ -34,30 +40,40 @@
 
 				</nav>
 
-				<a href="#" class="button">SUPPORT CFF</a>
-
-				<div class="bluespace"></div>
+				<a href="donations.html" class="button headbutton">SUPPORT CFF</a>
 
 			</header>
 
 			<main>
 
+			<div class="bluespace space"></div>
+
 				<div class="donationsheader">
 
 					<img src="images/donateimage.png">
 
-					<h2>THANK YOU FOR YOUR DONATION</h2>
-
 				</div> <!--END .donationsheader-->
 
-				<div class="donateform">
+					
 
+				
+
+				<div class="donateform">
+				
+					<h2>THANK YOU FOR YOUR DONATION</h2>
+
+
+				<div class="left">
 
 					<label for="donation">Donation Amount</label>
 					<input type="text" id="donation" name="donation" placeholder="Enter Amount">
+
+					<br>
 					
 					<label for="once">One Time Donation</label>
 					<input type="radio" name="once" id="once">
+
+					
 					
 					<label for="monthly">Monthy Donation</label>
 					<input type="radio" name="once" id="once"> 
@@ -66,30 +82,43 @@
 
 					<label for="firstname">First Name</label>
 					<input type="text" id="firstname" name="firstname" placeholder="Enter Name">
+					
+					<br>
 
 					<label for="lastname">Last Name</label>
 					<input type="text" id="lastname" name="lastname" placeholder="Enter Name">
+
+					<br>
 
 					<label for="email">Email</label>
 					<input type="email" id="email" name="email" placeholder="Enter Email">
 
 					<br>
+
+				</div>
+
+				<div class="right">
 					
 					<label for="visa">Visa</label>
 					<input type="radio" name="cardtype" id="visa">
 					
 					<label for="dic">Discovery</label>
 					<input type="radio" name="cardtype" id="dic"> 
-
+					
 					<label for="master">Master Card</label>
 					<input type="radio" name="cardtype" id="master">
 
 					<br>
 
 					<label for="cardnum">Card Number</label>
+
 					<input type="text" id="cardnum" name="cardnum" placeholder="Enter Number" maxlength="16">
 
+					<br>
+
 					<label for="month">Expiration Date</label>
+
+
 				<select name="month" id="month">
 					<option value="1">Jan (1)</option>
 					<option value="2">Feb (2)</option>
@@ -104,7 +133,13 @@
 					<option value="11">Nov (11)</option>
 					<option value="12">Dec (12)</option>
 				</select>
+
+				<br>
+
 				<label for="year">Year</label>
+
+
+
 				<select name="year" id="year">
 					<option value="2015">2015</option>
 					<option value="2016">2016</option>
@@ -121,7 +156,7 @@
 
 
 
-
+			</div>
 
 
 
@@ -132,9 +167,9 @@
 
 			<footer>
 
-				<a href="donations.html" class="button">SUPPORT CFF</a>
+				<a href="donations.html" class="button footbutton">SUPPORT CFF</a>
 
-				<p>Father to Father Project, Inc. 4731 Mixson Avenue North Charleston, SC 29405 Phone: (843) 744-2126
+				<p class="contact">Father to Father Project, Inc. 4731 Mixson Avenue North Charleston, SC 29405 Phone: (843) 744-2126
 				director@fathertofather.comcastbiz.net</p>
 				
 			</footer>
