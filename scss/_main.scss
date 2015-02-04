@@ -1,0 +1,120 @@
+
+.imageheader {
+	@include breakpoint($small){
+		position: relative;
+	}
+}
+
+.headerwords {
+	text-align: center;
+	@include breakpoint($small) {
+		clear: both;
+		width: 300px;
+		position: absolute;
+		/*bottom: 20px;*/
+		margin-top: 120px;
+		margin-left: 20px;
+		text-shadow: 2px 2px rgba(25, 25, 25, 0.6);
+
+	p {
+		color: #fff;
+	}
+	}
+
+}
+
+.programwords {
+	text-align: center;
+	@include breakpoint($small) {
+		width: 500px;
+		width: 400px;
+		position: absolute;
+		text-shadow: 2px 2px rgba(25, 25, 25, 0.6);
+
+	p {
+		color: #fff;
+	}
+	}
+}
+
+.readme {
+	color: #AC1112;
+}
+
+.programsimage {
+	@include breakpoint($medium) {
+		float: right;
+		width: 50%;
+	}
+}
+
+.programlist {
+	text-align: center;
+	@include breakpoint($medium) {
+		float: left;
+		width: 50%;
+		text-align: left;
+		font-size: 0.85em;
+	}
+}
+
+
+
+.aboutusimg h1 {
+	text-align: center;
+	
+}
+
+.aboutuscont {
+
+	@include breakpoint($small) {
+		width: 60%;
+		float: right;
+		border-left-color:  #06305B;
+		border-left-width: 3px;
+		margin-right: 32px;
+	}
+
+	p {
+	padding-right: 5%;
+	padding-left: 5%;
+	}
+}
+
+
+.donateform {
+	text-align: center;
+}
+
+input {
+	margin-top: 20px;
+}
+
+select {
+	margin-top: 20px;
+}
+
+.left {
+	@include breakpoint($small){
+		float: left;
+		text-align: left;
+		margin-left: 1%;
+
+	@include breakpoint($medium) {
+		margin-left: 10%;
+	}
+	}
+}
+
+	.right {
+	@include breakpoint($small){
+		float: right;
+		text-align: left;
+		margin-right: 1%;
+	@include breakpoint($medium) {
+		margin-left: 10%;
+	}
+	}
+}
+
+

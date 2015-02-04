@@ -1,0 +1,30 @@
+footer {
+	background-color: #1C75BC;
+	padding: 20px;
+	clear: both;
+	@include breakpoint($small) {
+		padding-bottom: 100px;
+		position: relative;
+	@include breakpoint($medium){
+		clear: both;
+	}
+	}
+}
+
+.contact {
+	color: #fff;
+	width: 200px;
+	margin-left: 30%;
+	@include breakpoint($small) {
+		float: right;
+		position: absolute;
+		right: 72px;
+	}
+}
+
+.footbutton {
+	@include breakpoint($small) {
+		float: left;
+		margin: 0;
+	}
+}
