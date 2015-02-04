@@ -11,11 +11,9 @@
 		clear: both;
 		width: 300px;
 		position: absolute;
-		/*bottom: 20px;*/
 		margin-top: 120px;
 		margin-left: 20px;
-		text-shadow: 2px 2px rgba(25, 25, 25, 0.6);
-
+		text-shadow: 0 1px 2px rgba(0,0,0, 0.3);
 	p {
 		color: #fff;
 	}
@@ -26,10 +24,12 @@
 .programwords {
 	text-align: center;
 	@include breakpoint($small) {
-		width: 500px;
-		width: 400px;
+		text-align: left;
+
+		padding-left: 20px;
+		width: 360px;
 		position: absolute;
-		text-shadow: 2px 2px rgba(25, 25, 25, 0.6);
+		text-shadow: 0 1px 2px rgba(0,0,0, 0.3);
 
 	p {
 		color: #fff;
@@ -44,7 +44,7 @@
 .programsimage {
 	@include breakpoint($medium) {
 		float: right;
-		width: 50%;
+		width: 45%;
 	}
 }
 
@@ -55,6 +55,7 @@
 		width: 50%;
 		text-align: left;
 		font-size: 0.85em;
+		margin-left: 5%;
 	}
 }
 
