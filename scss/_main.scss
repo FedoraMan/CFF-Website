@@ -1,51 +1,67 @@
+.headbluespace {
 
-.imageheader {
-	@include breakpoint($small){
-		position: relative;
+	@include breakpoint($small) {
+	margin-top: 20px;
+	background-color: #06305B;
+	padding: 10px;
+	clear: both;
 	}
 }
 
 .headerwords {
 	text-align: center;
-	@include breakpoint($small) {
-		clear: both;
-		width: 300px;
-		position: absolute;
-		margin-top: 120px;
-		margin-left: 20px;
-		text-shadow: 0 1px 2px rgba(0,0,0, 0.3);
+	background-image: url(../images/homeimage.png);
+	background-position: center;
+	background-size: cover;
+	padding: 40px;
+
 	p {
 		color: #fff;
 	}
+	@include breakpoint($small) {
+		clear: both;
+		// width: 300px;
+		// margin-top: 120px;
+		// margin-left: 20px;
+		text-shadow: 0 1px 2px rgba(0,0,0, 0.3);
+		padding: 100px;
+	p {
+		color: #fff;
 	}
+}
 
 }
 
 .programwords {
 	text-align: center;
+	background-image: url(../images/homeimage2.jpg);
+	background-position: center right;
+	padding-bottom: 500px;
+	background-size: cover;
+
 	@include breakpoint($small) {
 		text-align: left;
-
 		padding-left: 20px;
-		width: 360px;
-		position: absolute;
 		text-shadow: 0 1px 2px rgba(0,0,0, 0.3);
+	}
 
+	@include breakpoint($medium) {
+		float: right;
+		width: 45%;
+		padding-bottom: 311px;
+	}
+
+	h2 {
+		margin-top: 0;
+	}
 	p {
 		color: #fff;
 	}
-	}
+	
 }
 
 .readme {
 	color: #AC1112;
-}
-
-.programsimage {
-	@include breakpoint($medium) {
-		float: right;
-		width: 45%;
-	}
 }
 
 .programlist {
@@ -55,11 +71,24 @@
 		width: 50%;
 		text-align: left;
 		font-size: 0.85em;
-		margin-left: 5%;
+		margin-left: 20px;
+	}
+
+	h3 {
+		margin-bottom: 5px;
+	}
+
+	p {
+		margin-top: 0;
 	}
 }
 
-
+.aboutusimg {
+	background-image: url(../images/aboutusimage.png);
+	background-position: center left;
+	padding: 80px;
+	background-size: cover;
+}
 
 .aboutusimg h1 {
 	text-align: center;
@@ -82,9 +111,24 @@
 	}
 }
 
+.donationsheader {
+	background-image: url(../images/donateimage.png);
+	padding: 200px;
+	background-size: cover;
+	background-position: center;
+	margin-top: 0;
+}
+
 
 .donateform {
 	text-align: center;
+	margin-bottom: 10px;
+	
+
+	.button {
+		clear: both;
+		text-align: center;
+	}
 }
 
 input {
@@ -118,4 +162,9 @@ select {
 	}
 }
 
+.submit {
+	margin: 0 auto;
+	width: 20%;
+	clear: both;
+}
 

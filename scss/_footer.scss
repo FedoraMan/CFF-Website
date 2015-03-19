@@ -2,6 +2,7 @@ footer {
 	background-color: #1C75BC;
 	padding: 20px;
 	clear: both;
+	text-align: center;
 	@include breakpoint($small) {
 		padding-bottom: 100px;
 		position: relative;
@@ -14,17 +15,30 @@ footer {
 .contact {
 	color: #fff;
 	width: 200px;
-	margin-left: 30%;
+	text-align: left;
+	margin-top: 20px;
 	@include breakpoint($small) {
 		float: right;
 		position: absolute;
-		right: 72px;
+		right: 0;
+		top: 0;
+		padding-right: 62px;
+		
 	}
+}
+
+.container {
+	margin: 0 auto;
+	width: 70%;
 }
 
 .footbutton {
 	@include breakpoint($small) {
-		float: left;
-		margin: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin-left: 20px;
+		margin-top: 36px;
+
 	}
 }

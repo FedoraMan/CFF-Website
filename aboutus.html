@@ -4,6 +4,8 @@
 			<meta charset="utf-8">
 			<title>About Us</title>
 			<link rel="stylesheet" type="text/css" href="css/styles.css">
+			<script src="js/jquery-1.11.2.min.js"></script>
+			<script src="js/main.js"></script>
 		</head>
 
 		<body>
@@ -22,15 +24,17 @@
 
 				<h1 class="logo">Center for Fathers and Families</h1>
 
-					
+				<a href="donations.html" class="button headbutton">SUPPORT CFF</a>
 
 				<nav class="mainnav">
 					
 					<h6 class="goaway">Main Navigation</h6>
 
-						<ul>
+					<div> <a href="#" class="menuButton" id="menuButton">MENU</a></div>
+
+						<ul class="menuHide">
 							
-							<li><a href="home.html">HOME</a></li>
+							<li><a href="index.html">HOME</a></li>
 							<li><a href="aboutus.html">ABOUT US</a></li>
 							<li><a href="#">PROGRAMS</a></li>
 							<li><a href="#">IMPACT</a></li>
@@ -40,19 +44,15 @@
 
 				</nav>
 
-				<a href="donations.html" class="button headbutton">SUPPORT CFF</a>
-
 			</header>
 
 			<main>
 
-			<div class="bluespace space"></div>
+			<div class="headbluespace"></div>
 
 				<div class="aboutuscont">
 
 					<div class="aboutusimg">
-
-						<img src="images/aboutusimage.png" class="aboutimg">
 
 						<h1>WHY WE CARE</h1>
 
@@ -84,10 +84,14 @@
 
 			<footer>
 
-				<a href="donations.html" class="button footbutton">SUPPORT CFF</a>
+				<div class="container">
 
-				<p class="contact">Father to Father Project, Inc. 4731 Mixson Avenue North Charleston, SC 29405 Phone: (843) 744-2126
-				director@fathertofather.comcastbiz.net</p>
+					<a href="donations.html" class="button footbutton">SUPPORT CFF</a>
+
+					<p class="contact">Father to Father Project, Inc. 4731 Mixson Avenue North Charleston, SC 29405 Phone: (843) 744-2126
+					director@fathertofather.comcastbiz.net</p>
+
+				</div> <!--END .container-->
 				
 			</footer>
 
