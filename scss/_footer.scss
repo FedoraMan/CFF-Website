@@ -17,6 +17,7 @@ footer {
 	width: 200px;
 	text-align: left;
 	margin-top: 20px;
+	font-size: .90em;
 	@include breakpoint($small) {
 		float: right;
 		position: absolute;

@@ -295,7 +295,8 @@ footer {
   color: #fff;
   width: 200px;
   text-align: left;
-  margin-top: 20px; }
+  margin-top: 20px;
+  font-size: .90em; }
   @media (min-width: 620px) {
     .contact {
       float: right;
